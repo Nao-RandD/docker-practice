@@ -1,8 +1,8 @@
 # docker-practice
 Dockerの基礎的な学習に使用する資料を置いています
 
-## server-webrickの実行
-
+## server-webrick
+### DockerでのWebサーバーの構築
 1. Dockerfileがある場所で下記のコマンドを実行してImageを作成
 ``` bash
 ~% docker image build -t sample/webrick:latest .
@@ -18,7 +18,7 @@ Dockerの基礎的な学習に使用する資料を置いています
 
 4. `main.rb`のbodyに入れてある内容が表示されていることを確認（helloがデフォルト）
 
-## 起動したコンテナの後片付け
+### 起動したコンテナの後片付け
 1. 起動したコンテナを停止させる
 ``` bash
 docker container stop webrick
