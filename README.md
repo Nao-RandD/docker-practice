@@ -57,3 +57,20 @@ Connected To MySQLが表示されることを確認
 ``` bash
 ~% docker system prune -a --volumes
 ```
+
+
+## その他
+
+### プラスα
+同じネットワークに繋いだ端末から下記でIPアドレスを調べて、立ち上げたサーバを除くのも楽しい
+
+- IPアドレスの調べ方
+    - Macの場合
+        ``` bash
+        $ ipconfig getifaddr en0
+        ```
+    - Windowsの場合
+        ``` bash
+        $ ipconfig
+        ```
+        ※表示されたIPv4アドレスを確認する
