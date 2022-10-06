@@ -9,6 +9,8 @@ services:
     ports:
       - '8002:80'
   mysql:
+    # M1 Macであれば下記のコメントアウトを外す
+    # platform: linux/x86_64
     image: mysql:5.7
     volumes:
       - mysql_db:/var/lib/mysql
