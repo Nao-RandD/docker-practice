@@ -1,7 +1,9 @@
 # docker-practice
 Dockerの基礎的な学習に使用する資料を置いています
 
+---
 ## server-webrick
+---
 ### DockerでのWebサーバーの構築
 1. Dockerfileがある場所で下記のコマンドを実行してImageを作成
 ``` bash
@@ -31,9 +33,9 @@ Dockerの基礎的な学習に使用する資料を置いています
 ```
 ＊ `docker container ls -a`で確認
 
-
+---
 ## LAMP
-
+---
 ### LAMP（Apache, MySQL, PHP）環境の立ち上げ
 1. ./LAMPディレクトリに移動
 2. 下記のコマンドで一式を立ち上げ
@@ -52,15 +54,17 @@ Connected To MySQLが表示されることを確認
 ~% docker compose down
 ```
 
+---
 ## すべてのお片付け
+---
 1. バルスとして下記をして終わり
 ``` bash
 ~% docker system prune -a --volumes
 ```
 
-
+---
 ## その他
-
+---
 ### プラスα
 同じネットワークに繋いだ端末から下記でIPアドレスを調べて、立ち上げたサーバを除くのも楽しい
 
