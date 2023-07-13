@@ -1,6 +1,8 @@
 # docker-practice
 Dockerの基礎的な学習に使用する資料を置いています
+ローカルにサーバーを立ち上げてLAMP環境を構築することを目指します
 
+https://www.docker.com/
 ---
 ## server-webrick
 ---
